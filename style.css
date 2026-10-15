@@ -1,0 +1,16 @@
+/* HEADER STYLES */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+h1 {
+  color: #ff5722;
+}
+
+p {
+  color: #333333;
+  font-size: 16px;
+}
