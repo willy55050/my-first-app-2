@@ -1,19 +1,42 @@
-<!-- TÍTULO PRINCIPAL E INSTRUCCIONES -->
-<!-- APP TITLE & INSTRUCTIONS -->
-<header>
-  <h1>Guess the Dragon Ball Character</h1>
-  <p>Read the clues and guess the character to earn up to 5 stars!</p>
-</header><!-- CHARACTER CLUES DISPLAY -->
-<main>
-  <div id="clues-container">
-    <h2>Clues:</h2>
-    <ul id="clues-list">
-      <!-- Clues will appear hehmvhvre from JavaScript -->
-    </ul>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Dragon Ball Character</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- APP TITLE & INSTRUCTIONS -->
+  <header>
+    <h1>Guess the Dragon Ball Character</h1>
+    <p>Read the clues and guess the character to earn up to 5 stars!</p>
+  </header>
+
+  <main>
+    <!-- CHARACTER CLUES DISPLAY -->
+    <div id="clues-container">
+      <h2>Clues:</h2>
+      <ul id="clues-list">
+        <!-- Clues will appear here from JavaScript -->
+      </ul>
+    </div>
+
+    <!-- GUESS INPUT & SUBMIT BUTTON -->
+    <div id="guess-container">
+      <input type="text" id="user-guess" placeholder="Type character name...">
+      <button id="submit-btn">Guess</button>
+    </div>
+
+    <!-- ANSWER CHECKING & EXTRA CLUES -->
+    <div id="feedback-container">
+      <p id="feedback-message"></p>
+      <p id="extra-clue-text"></p>
+    </div>
+  </main>
+
+  <!-- JAVASCRIPT CONNECTION -->
   <script src="script.js"></script>
-</main><!-- GUESS INPUT & SUBMIT BUTTON -->
-<div id="guess-container">
-  <input type="text" id="user-guess" placeholder="Type character name...">
-  <button id="submit-btn">Guess</button>
-</div>
+</body>
+</html>
